@@ -1,0 +1,17 @@
+.job-list-container {
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+}
+@media (min-width: 768px) {
+  .job-list-container {
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+  }
+}
+@media (min-width: 996px) {
+  .job-list-container {
+    margin-left: 50px;
+  }
+}
